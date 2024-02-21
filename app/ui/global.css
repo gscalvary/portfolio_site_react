@@ -39,3 +39,14 @@ body {
   overflow: hidden;
   z-index: -1;
 }
+
+.groovy-gold {
+  color: #f1f2d0;
+}
+
+.name-role {
+  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: auto;
+}

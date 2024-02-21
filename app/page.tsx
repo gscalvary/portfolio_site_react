@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main>
       {/* Hero Header */}
       <section>
         <div className='bgWrap'>
@@ -15,9 +15,11 @@ export default function Home() {
             sizes='100vw'
             className="hidden md:block"
             style={{objectFit: 'cover'}}
+            priority
           />
         </div>
-        <h1>Christopher Oliver</h1>
+        <h1 className='name-role text-center uppercase text-5xl groovy-gold'>Christopher Oliver</h1>
+        <h3></h3>
       </section>
       {/* About */}
       {/* Experience */}
