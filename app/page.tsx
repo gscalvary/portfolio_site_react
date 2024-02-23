@@ -1,5 +1,6 @@
 'use client'
 
+import headShot from '@/public/Headshot.jpeg'
 import heroHeaderPic from '@/public/HeroHeader.jpg';
 import me from '@/app/data/me.json'
 import Image from "next/image";
@@ -40,8 +41,28 @@ export default function Home() {
         <h3 className='text-center uppercase text-2xl groovy-gold'>{ me.bio.titles[titleIndex] }</h3>
       </section>
       {/* About */}
+      <section>
+        <div className='groovy-cream grid grid-rows-1 grid-flow-col'>
+          <div>
+            <h2>About me</h2>
+            <h4>{ me.bio.welcomeMessage }</h4>
+          </div>
+          <div>
+          <Image
+            src={headShot}
+            alt="My smiling face, well kind of"
+            placeholder='blur'
+            sizes='30vw'
+            className="md:block"
+          />
+          </div>
+          <div>Location</div>
+        </div>
+      </section>
       {/* Experience */}
+      <section></section>
       {/* Education */}
+      <section></section>
       {/* <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;

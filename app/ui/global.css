@@ -40,6 +40,10 @@ body {
   z-index: -1;
 }
 
+.groovy-cream {
+  background-color: #f1f2d0;
+}
+
 .groovy-gold {
   color: #f1f2d0;
 }
