@@ -44,9 +44,7 @@ body {
   color: #f1f2d0;
 }
 
-.name-role {
-  height: 600px;
+.name {
   padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: auto;
+  padding-bottom: 20px;
 }

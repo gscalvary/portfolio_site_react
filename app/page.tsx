@@ -1,7 +1,25 @@
+'use client'
+
 import heroHeaderPic from '@/public/HeroHeader.jpg';
+import me from '@/app/data/me.json'
 import Image from "next/image";
+import { useEffect, useState } from 'react';
 
 export default function Home() {
+
+  const [titleIndex, setTitleIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (titleIndex < me.bio.titles.length - 1) {
+        setTitleIndex(titleIndex + 1);
+      } else {
+        setTitleIndex(0);
+      }
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [titleIndex]);
+
   return (
     <main>
       {/* Hero Header */}
@@ -18,13 +36,13 @@ export default function Home() {
             priority
           />
         </div>
-        <h1 className='name-role text-center uppercase text-5xl groovy-gold'>Christopher Oliver</h1>
-        <h3></h3>
+        <h1 className='name text-center uppercase text-5xl groovy-gold'>{ me.bio.name }</h1>
+        <h3 className='text-center uppercase text-2xl groovy-gold'>{ me.bio.titles[titleIndex] }</h3>
       </section>
       {/* About */}
       {/* Experience */}
       {/* Education */}
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+      {/* <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
           <code className="font-mono font-bold">app/page.tsx</code>
@@ -128,7 +146,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   );
 }
