@@ -7,12 +7,14 @@
     },
     "education" : [
         {
+            "id" : "0",
             "degree" : "M.S. Computer Science",
             "name" : "Northeastern Univ. Boston, MA",
             "datesAttended" : "Sep 2012 - May 2015",
             "aboutDegree" : "Achieved a 3.83 GPA while studying: Artificial Intelligence, Mobile Application Development, Database Management Systems, Algorithms, Computer Systems, Program Design, Game Engine Design and Engineering Software for Reliablity."
         },
         {
+            "id" : "1",
             "degree" : "B.S. Finance",
             "name" : "URI Kingston, RI",
             "datesAttended" : "Sep 1993 - Aug 1996",
@@ -21,6 +23,7 @@
     ],
     "experience" : [
         {
+            "id" : "0",
             "title" : "Principal Software Engineer",
             "company" : "Fidelity Investments - Smithfield, RI",
             "datesWorked" : "July 2023 - September 2023",
@@ -33,9 +36,10 @@
                 "description" : "Used machine learning algorithms, implemented in both PyTorch and TensorFlow, to improve an application that analyzes mutual fund prospectuses to automatically identify compliance rules that must be followed by the asset managers."
             }
             ],
-            "skills" : []
+            "skills" : "AWS, PyTorch, TensorFlow, Python, Java, Spring Boot, Mockito, Docker, Microservice, MongoDB, Maven, Jenkins, Git, Agile, Scrum"
         },
         {
+            "id" : "1",
             "title" : "Principal Software Engineer",
             "company" : "Raytheon Technologies - Portsmouth, RI",
             "datesWorked" : "January 2020 - July 2023",
@@ -48,9 +52,10 @@
                 "description" : "Design and implement cloud native, containerized micro-service based systems deployed to Kubernetes implementations using modern CI/CD pipelines and agile development methodologies."
             }
             ],
-            "skills" : []
+            "skills" : "Java, Go, Python, Spring Boot, Mockito, Docker, Podman, Microservice, RabbitMQ, MongoDB, Redis, Maven, npm, Jenkins, Coverity, Helm, ArgoCD, OpenShift, Rancher, Kubernetes, Domain Driven Design, Trunk-Based Development, Git, Agile, Scrum"
         },
         {
+            "id" : "2",
             "title" : "Sr. Software Engineer",
             "company" : "Apple - Austin, TX",
             "datesWorked" : "November 2018 - October 2019",
@@ -60,10 +65,11 @@
                 "description" : "Helped to build and lead a new engineering team responsible for the Apple online store bag and checkout experience for Apple customers across Asia. Built new and maintained existing site features in an agile environment."
             }
             ],
-            "skills" : []
+            "skills" : "Scala, Java, Spring MVC, Jenkins, Git, Agile, Scrum"
         },
         {
-            "title" : "Java Software Engineer",
+            "id" : "3",
+            "title" : "Full-Stack Software Engineer",
             "company" : "Blizzard Entertainment - Austin, TX",
             "datesWorked" : "August 2015 - November 2018",
             "role" : "Full Stack Developer",
@@ -81,9 +87,10 @@
                 "description" : "Participate in a 24/7 production support rotation.  Perform code reviews, system analysis for upcoming initiatives as well as write system documentation."
             }
             ],
-            "skills" : []
+            "skills" : "Java, Gradle, Spring MVC, Spock, Mockito, Javascript, jQuery, Bootstrap, HTML(5), CSS(3), Freemarker, Sass, Unsemantic, Font Awesome, Solr, Oracle, Couchbase, RabbitMQ, Jenkins, Trunk-Based Development, Git, Agile, Scrum"
         },
         {
+            "id" : "4",
             "title" : "Full-time Graduate Student",
             "company" : "Northeastern University - Boston, MA",
             "datesWorked" : "Sep 2014 - May 2015",
@@ -93,9 +100,10 @@
                 "description" : "After having spent the prior two years working full-time as the development lead on a large software project while going to graduate school part-time I took a year break to finish my Masters full-time.  I first planned for this hiatus in 2011 as a much needed opportunity to update my technical skills and then to secure a development job using those new skills."
             }
             ],
-            "skills" : []
+            "skills" : ""
         },
         {
+            "id" : "5",
             "title" : "Principal Software Engineer",
             "company" : "Fidelity Investments, FFAS - Smithfield, RI",
             "datesWorked" : "Oct 2006 - Sep 2014",
@@ -120,9 +128,10 @@
                 "description" : "Participated in several 24/7 on-call rotations.  Performed code and system design reviews.  Mentored new programmers.  Traveled to India in 2012 and 2014 to train and mentor our off-shore software engineering teams."
             }
             ],
-            "skills" : []
+            "skills" : ""
         },
         {
+            "id" : "6",
             "title" : "Sr. Software Engineer",
             "company" : "Fidelity Investments, FBCT - Boston, MA",
             "datesWorked" : "Oct 2005 - Oct 2006",
@@ -135,9 +144,10 @@
                 "description" : "Provided 24/7 support."
             }
             ],
-            "skills" : []
+            "skills" : ""
         },
         {
+            "id" : "7",
             "title" : "Sr. Software Engineer",
             "company" : "Fidelity Investments, FPCMS - Boston, MA",
             "datesWorked" : "July 2001 - Oct 2005",
@@ -156,7 +166,19 @@
                 "description" : "Participated in a 24/7 on-call rotation."
             }
             ],
-            "skills" : []
+            "skills" : ""
+        }
+    ],
+    "projects" : [
+        {
+            "id" : "0",
+            "name" : "This!",
+            "date" : "Winter 2024",
+            "shortDescription" : "A Portfolio Site",
+            "longDescription" : "I developed this webpage from scratch using React, NextJS, TypeScript, Tailwind CSS, HTML(5), and CSS(3).  I used Git for code version control.",
+            "imageAlt" : "Portfolio Site Screen Shot",
+            "codeLink" : "https://github.com/gscalvary/portfolio_site_react",
+            "codeLinkDesc" : "See the code on GitHub"
         }
     ],
     "icons" : [

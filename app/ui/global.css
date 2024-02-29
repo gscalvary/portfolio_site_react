@@ -44,8 +44,12 @@ body {
   background-color: #f1f2d0;
 }
 
-.groovy-gold {
+.groovy-cream-text {
   color: #f1f2d0;
+}
+
+.groovy-gold {
+  background-color: #f8c862;
 }
 
 .name {
