@@ -7,6 +7,7 @@ import heroHeaderPic from '@/public/HeroHeader.jpg';
 import Image from "next/image";
 import me from '@/app/data/me.json'
 import ProjectTable from '@/app/ui/project/table';
+import SocialMedia from '@/app/ui/socialMedia/links'
 import { useEffect, useState } from 'react';
 
 export default function Home() {
@@ -75,9 +76,14 @@ export default function Home() {
         <h2 className='text-center'>Education</h2>
         <EducationTable/>
       </section>
+      {/* Personal Projects */}
       <section className='groovy-gold'>
         <h2 className='text-center'>Personal Projects</h2>
         <ProjectTable/>
+      </section>
+      {/* Social Media */}
+      <section className='groovy-chocolate'>
+        <SocialMedia/>
       </section>
     </main>
   );
