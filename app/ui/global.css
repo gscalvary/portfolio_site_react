@@ -40,6 +40,11 @@ body {
   z-index: -1;
 }
 
+.footer {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
 .groovy-chocolate {
   background-color: #623a29;
 }
@@ -56,7 +61,19 @@ body {
   background-color: #f8c862;
 }
 
+.icon {
+  float: right;
+  padding: 5px;
+}
+
 .name {
   padding-top: 200px;
   padding-bottom: 20px;
+}
+
+section {
+  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: auto;
 }

@@ -82,9 +82,9 @@ export default function Home() {
         <ProjectTable/>
       </section>
       {/* Social Media */}
-      <section className='groovy-chocolate'>
+      <div className='footer groovy-chocolate'>
         <SocialMedia/>
-      </section>
+      </div>
     </main>
   );
 }

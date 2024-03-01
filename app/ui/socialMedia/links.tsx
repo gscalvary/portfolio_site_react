@@ -1,5 +1,5 @@
 import Image from "next/image";
-import me from '@/app/data/me.json'
+import me from '@/app/data/me.json';
 
 export default function SocialMedia() {
 
@@ -10,6 +10,7 @@ export default function SocialMedia() {
             {icons?.map((icon) => (
                 <a key={ icon.id } href={ icon.link } target="_blank">
                     <Image
+                        className="icon"
                         src={ icon.image }
                         alt={ icon.imageDesc }
                         height={ icon.height }
@@ -17,6 +18,6 @@ export default function SocialMedia() {
                     />
                 </a>
             ))}
-        </div>
+        </div>  
     );
 }
