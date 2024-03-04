@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import { candal } from '@/app/ui/fonts';
+import { roboto_flex } from '@/app/ui/fonts';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${candal.className} antialiased`}>{children}</body>
+      <body className={`${roboto_flex.className} antialiased`}>{children}</body>
     </html>
   );
 }

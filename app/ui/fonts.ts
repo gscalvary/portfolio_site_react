@@ -1,6 +1,5 @@
-import { Candal } from "next/font/google";
+import { Roboto_Flex } from "next/font/google";
 
-export const candal = Candal({
-    weight: ['400', '400'],
+export const roboto_flex = Roboto_Flex({
     subsets: ['latin']
 })

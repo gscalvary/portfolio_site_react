@@ -47,10 +47,16 @@ body {
 
 .groovy-chocolate {
   background-color: #623a29;
+  color: #f1f2d0;
 }
 
 .groovy-cream {
   background-color: #f1f2d0;
+  color: #623a29;
+}
+
+.groovy-cream hr {
+  border-top: 1px solid #623a29;
 }
 
 .groovy-cream-text {
@@ -59,10 +65,18 @@ body {
 
 .groovy-gold {
   background-color: #f8c862;
+  color: #623a29;
+}
+
+.groovy-gold hr {
+  border-top: 1px solid #623a29;
+}
+
+.headshot {
+  border-radius: 50%;
 }
 
 .icon {
-  float: right;
   padding: 5px;
 }
 
@@ -71,9 +85,6 @@ body {
   padding-bottom: 20px;
 }
 
-section {
-  height: 600px;
-  padding-top: 200px;
+.title {
   padding-bottom: 200px;
-  overflow: auto;
 }

@@ -28,61 +28,59 @@ export default function Home() {
   return (
     <main>
       {/* Hero Header */}
-      <section>
-        <div className='bgWrap'>
-          <Image
-            src={heroHeaderPic}
-            alt="Chris at work"
-            placeholder='blur'
-            fill
-            sizes='100vw'
-            className="hidden md:block"
-            style={{objectFit: 'cover'}}
-            priority
-          />
-        </div>
-        <h1 className='name text-center uppercase text-5xl groovy-cream-text'>{ me.bio.name }</h1>
-        <h3 className='text-center uppercase text-2xl groovy-cream-text'>{ me.bio.titles[titleIndex] }</h3>
-      </section>
+      <div className='bgWrap groovy-chocolate'>
+        <Image
+          src={heroHeaderPic}
+          alt="Chris at work"
+          placeholder='blur'
+          fill
+          sizes='100vw'
+          className="hidden md:block"
+          style={{objectFit: 'cover'}}
+          priority
+        />
+      </div>
+      <h1 className='name text-center uppercase text-5xl groovy-cream-text px-4'>{ me.bio.name }</h1>
+      <h3 className='title text-center uppercase text-2xl groovy-cream-text px-4'>{ me.bio.titles[titleIndex] }</h3>
       {/* About */}
-      <section className='groovy-cream'>
-        <div className='grid grid-rows-1 grid-flow-col'>
+      <section className='groovy-cream px-4 py-10'>
+        <div className='container md:grid md:grid-cols-3 mx-auto'>
           <div>
-            <h2>About me</h2>
+            <h2 className='text-3xl'>About me</h2>
             <h4>{ me.bio.welcomeMessage }</h4>
           </div>
           <div>
-          <Image
-            src={headShot}
-            alt="My smiling face, well kind of"
-            placeholder='blur'
-            sizes='30vw'
-            className="md:block"
-          />
+            <Image
+              src={headShot}
+              alt="My smiling face, well kind of"
+              placeholder='blur'
+              sizes='30vw'
+              className="headshot md:block mx-auto"
+            />
           </div>
           <div>
-            <h2>Location</h2>
+            <h2 className='text-3xl'>Location</h2>
             <h4>{ me.bio.location }</h4>
           </div>
         </div>
       </section>
       {/* Experience */}
-      <section className='groovy-gold'>
-        <h2 className='text-center'>Experience</h2>
+      <section className='groovy-gold px-4 py-10'>
+        <h2 className='mb-10 text-center text-3xl'>Experience</h2>
         <ExperienceTable/>
       </section>
       {/* Education */}
-      <section className='groovy-cream'>
-        <h2 className='text-center'>Education</h2>
+      <section className='groovy-cream px-4 py-10'>
+        <h2 className='mb-10 text-center text-3xl'>Education</h2>
         <EducationTable/>
       </section>
       {/* Personal Projects */}
-      <section className='groovy-gold'>
-        <h2 className='text-center'>Personal Projects</h2>
+      <section className='groovy-gold px-4 py-10'>
+        <h2 className='mb-10 text-center text-3xl'>Personal Projects</h2>
         <ProjectTable/>
       </section>
-      {/* Social Media */}
-      <div className='footer groovy-chocolate'>
+      {/* Footer */}
+      <div className='footer groovy-chocolate px-4'>
         <SocialMedia/>
       </div>
     </main>
