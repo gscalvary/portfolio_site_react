@@ -176,7 +176,7 @@
             "date" : "Winter 2024",
             "shortDescription" : "A Portfolio Site",
             "longDescription" : "I developed this webpage from scratch using React, NextJS, TypeScript, Tailwind CSS, HTML(5), and CSS(3).  I used Git for code version control.",
-            "image" : "/PortfolioSite.jpg",
+            "image" : "/PortfolioSite.png",
             "imageAlt" : "Portfolio Site Screen Shot",
             "codeLink" : "https://github.com/gscalvary/portfolio_site_react",
             "codeLinkDesc" : "See the code on GitHub"
