@@ -1,6 +1,8 @@
 import '@/app/ui/global.css';
 import { roboto_flex } from '@/app/ui/fonts';
 import type { Metadata } from "next";
+import Footer from '@/app/ui/footer/page';
+import Navigation from '@/app/ui/navigation';
 
 export const metadata: Metadata = {
   title: "Christopher Oliver's Portfolio",
@@ -14,7 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto_flex.className} antialiased`}>{children}</body>
+      <body className={`${roboto_flex.className} antialiased`}>
+        <main>
+          <Navigation/>
+          {children}
+          <Footer/>
+        </main>
+      </body>
     </html>
   );
 }
