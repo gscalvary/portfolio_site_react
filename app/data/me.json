@@ -25,7 +25,8 @@
         {
             "id" : 0,
             "title" : "Principal Software Engineer",
-            "company" : "Fidelity Investments - Smithfield, RI",
+            "company" : "Fidelity Investments",
+            "location" : "Smithfield, RI",
             "datesWorked" : "July 2023 - September 2023",
             "role" : "Technical Lead - Innovation Squad",
             "accomplishments" : [
@@ -44,7 +45,8 @@
         {
             "id" : 1,
             "title" : "Principal Software Engineer",
-            "company" : "Raytheon Technologies - Portsmouth, RI",
+            "company" : "Raytheon Technologies",
+            "location" : "Portsmouth, RI",
             "datesWorked" : "January 2020 - July 2023",
             "role" : "Technical Lead - Research and Development",
             "accomplishments" : [
@@ -60,7 +62,8 @@
         {
             "id" : 2,
             "title" : "Sr. Software Engineer",
-            "company" : "Apple - Austin, TX",
+            "company" : "Apple",
+            "location" : "Austin, TX",
             "datesWorked" : "November 2018 - October 2019",
             "role" : "Java/Scala Software Engineer",
             "accomplishments" : [
@@ -76,7 +79,8 @@
         {
             "id" : 3,
             "title" : "Full-Stack Software Engineer",
-            "company" : "Blizzard Entertainment - Austin, TX",
+            "company" : "Blizzard Entertainment",
+            "location" : "Austin, TX",
             "datesWorked" : "August 2015 - November 2018",
             "role" : "Full Stack Developer",
             "accomplishments" : [
@@ -98,7 +102,8 @@
         {
             "id" : 4,
             "title" : "Full-time Graduate Student",
-            "company" : "Northeastern University - Boston, MA",
+            "company" : "Northeastern University",
+            "location" : "Boston, MA",
             "datesWorked" : "Sep 2014 - May 2015",
             "role" : "MS Candidate, Computer Science",
             "accomplishments" : [
@@ -111,7 +116,8 @@
         {
             "id" : 5,
             "title" : "Principal Software Engineer",
-            "company" : "Fidelity Investments, FFAS - Smithfield, RI",
+            "company" : "Fidelity Investments, FFAS",
+            "location" : "Smithfield, RI",
             "datesWorked" : "Oct 2006 - Sep 2014",
             "role" : "Development Lead, Extended Architect",
             "accomplishments" : [
@@ -139,7 +145,8 @@
         {
             "id" : 6,
             "title" : "Sr. Software Engineer",
-            "company" : "Fidelity Investments, FBCT - Boston, MA",
+            "company" : "Fidelity Investments, FBCT",
+            "location" : "Boston, MA",
             "datesWorked" : "Oct 2005 - Oct 2006",
             "role" : "Mainframe Developer",
             "accomplishments" : [
@@ -155,7 +162,8 @@
         {
             "id" : 7,
             "title" : "Sr. Software Engineer",
-            "company" : "Fidelity Investments, FPCMS - Boston, MA",
+            "company" : "Fidelity Investments, FPCMS",
+            "location" : "Boston, MA",
             "datesWorked" : "July 2001 - Oct 2005",
             "role" : "Mainframe Developer",
             "accomplishments" : [

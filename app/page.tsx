@@ -39,8 +39,8 @@ export default function Home() {
           priority
         />
       </div>
-      <h1 className='name text-center uppercase text-5xl groovy-cream-text px-4'>{ me.bio.name }</h1>
-      <h3 className='title text-center uppercase text-2xl groovy-cream-text px-4'>{ me.bio.titles[titleIndex] }</h3>
+      <h1 className='name text-center uppercase text-5xl md:text-8xl groovy-cream-text px-4'>{ me.bio.name }</h1>
+      <h3 className='text-center uppercase text-2xl groovy-cream-text pb-[200px] px-4'>{ me.bio.titles[titleIndex] }</h3>
       {/* About */}
       <section id='about' className='groovy-cream px-4 py-10'>
         <div className='container md:grid md:grid-cols-3 mx-auto'>
@@ -64,8 +64,8 @@ export default function Home() {
         </div>
       </section>
       {/* Experience */}
-      <section id='experience' className='groovy-gold px-4 py-10'>
-        <h2 className='mb-10 text-center text-3xl'>Experience</h2>
+      <section id='experience' className='groovy-gold py-10'>
+        <h2 className='mb-5 px-4 text-center text-3xl'>Experience</h2>
         <ExperienceTable/>
       </section>
       {/* Education */}

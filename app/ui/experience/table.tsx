@@ -1,14 +1,22 @@
 import me from '@/app/data/me.json'
+import HorizontalScroller from '../scroller/hScroller';
 
 export default function ExperienceTable() {
 
+
+    const titles: Array<string> = me.experience?.filter(function (experience) {
+        return experience.id < 4;
+    }).map(function (experience) {
+        return experience.company + " - " + experience.title;
+    });
+    
     const experiences = me.experience?.map(experience =>
         <li key={ experience.id }>
             <hr></hr>
             <div className='mb-10'>
                 <div className='md:flex md:flex-row my-4 text-2xl'>
                     <div className='basis-1/2'>{ experience.title }</div>
-                    <div className='basis-1/2'>{ experience.company }</div>
+                    <div className='basis-1/2'>{ experience.company } - { experience.location }</div>
                 </div>
                 <div className='md:flex md:flex-row mb-2 text-xl'>
                     <div className='basis-1/2'>{ experience.role }</div>
@@ -24,5 +32,10 @@ export default function ExperienceTable() {
         </li>
     );
 
-    return <ul className='container mx-auto'>{ experiences }</ul>
+    return (
+        <>
+            <HorizontalScroller titles={ titles }/>
+            <ul className='container mx-auto px-4'>{ experiences }</ul>
+        </>
+    );
 }
