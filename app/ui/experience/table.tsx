@@ -1,5 +1,5 @@
 import me from '@/app/data/me.json'
-import HorizontalScroller from '../scroller/hScroller';
+import HorizontalScroller from '../scroller/horizontalScroller';
 
 export default function ExperienceTable() {
 
@@ -7,7 +7,7 @@ export default function ExperienceTable() {
     const titles: Array<string> = me.experience?.filter(function (experience) {
         return experience.id < 4;
     }).map(function (experience) {
-        return experience.company + " - " + experience.title;
+        return experience.company;
     });
     
     const experiences = me.experience?.map(experience =>

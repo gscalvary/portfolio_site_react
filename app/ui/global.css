@@ -32,6 +32,18 @@ body {
   }
 }
 
+.banner {
+  display: inline-flex;
+  align-items: center;
+}
+
+.banner::after {
+  content: "\003e";
+  padding: 0 2em;
+  flex: none;
+  color: skyblue;
+}
+
 .bgWrap {
   position: fixed;
   height: 100vh;
@@ -90,46 +102,18 @@ body {
 }
 
 .scroll-right-to-left {
-  /* animation properties
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  
-  -moz-animation: my-animation 15s linear infinite;
-  -webkit-animation: my-animation 15s linear infinite; */
-  animation: marquee 4s linear infinite;
+  animation: 25s scroller 0s infinite linear;
+  display: flex;
+  will-change: transform;
+  transition: transform .01s;
 }
 
-/* for Firefox */
-@-moz-keyframes my-animation {
-  from { -moz-transform: translateX(100%); }
-  to { -moz-transform: translateX(-100%); }
-}
-
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from { -webkit-transform: translateX(100%); }
-  to { -webkit-transform: translateX(-100%); }
-}
-
-@keyframes my-animation {
-  from {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes marquee {
+@keyframes scroller {
   0% {
-    transform: translate3d(0, 0, 0);
+    transform: translate(0, 0);
   }
+
   100% {
-    transform: translate3d(-50%, 0, 0);
+    transform: translate(-100%, 0);
   }
 }
