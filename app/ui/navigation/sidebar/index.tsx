@@ -23,7 +23,7 @@ export default function Sidebar( props : Props ) {
                     />
                 </svg>
             </button>
-            <ul className="leading-relaxed sidebar-nav text-center text-xl">
+            <ul className="leading-relaxed sidebar-nav text-center text-5xl">
                 <li>
                     <Link href={'#top'} onClick={props.toggle}>home</Link>
                 </li>

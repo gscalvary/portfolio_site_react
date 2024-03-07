@@ -1,22 +1,22 @@
 {
     "bio" : {
         "name" : "Christopher Oliver",
-        "titles" : ["Software Engineer", "Full Stack Developer", "Computer Scientist", "Techie"],
-        "welcomeMessage" : "I am a creative, self-motivated, and highly organized developer with over twenty years of programming experience building and supporting business critical, continuously available, large-scale computing systems.  I love to learn and am constantly exploring new technologies.",
-        "location" : "United States, Planet Earth"
+        "titles" : ["Software Engineer", "Husband", "Full Stack Developer", "Motorcyclist", "Computer Scientist", "Gamer"],
+        "welcomeMessage" : "Hi there. I'm a creative, self-motivated, and highly organized software developer with over twenty years of programming experience. I love to learn and am constantly exploring new technologies. Let's build something together!",
+        "location" : "Southern New England, United States, Planet Earth"
     },
     "education" : [
         {
             "id" : 0,
             "degree" : "M.S. Computer Science",
-            "name" : "Northeastern Univ. Boston, MA",
+            "name" : "Northeastern Univ. - Boston, MA",
             "datesAttended" : "Sep 2012 - May 2015",
             "aboutDegree" : "Achieved a 3.83 GPA while studying: Artificial Intelligence, Mobile Application Development, Database Management Systems, Algorithms, Computer Systems, Program Design, Game Engine Design and Engineering Software for Reliablity."
         },
         {
             "id" : 1,
             "degree" : "B.S. Finance",
-            "name" : "URI Kingston, RI",
+            "name" : "URI - Kingston, RI",
             "datesAttended" : "Sep 1993 - Aug 1996",
             "aboutDegree" : "Achieved a 3.65 GPA while a student athlete on the URI Crew Team.  Go Rams!"
         }
@@ -25,31 +25,36 @@
         {
             "id" : 0,
             "title" : "Principal Software Engineer",
-            "company" : "Fidelity Investments - Smithfield, RI",
+            "company" : "Fidelity Investments",
+            "location" : "Smithfield, RI",
             "datesWorked" : "July 2023 - September 2023",
             "role" : "Technical Lead - Innovation Squad",
             "accomplishments" : [
             {
-                "description" : "Led a small, distributed team tasked with using emerging technologies to help our asset managers realize efficiencies related to compliance."
+                "description" : "I was the technical lead for a small, distributed innovation team tasked with quickly prototyping new systems using emerging technologies to help our fund managers realize efficiencies related to compliance."
             },
             {
-                "description" : "Used machine learning algorithms, implemented in both PyTorch and TensorFlow, to improve an application that analyzes mutual fund prospectuses to automatically identify compliance rules that must be followed by the asset managers."
+                "description" : "We used machine learning algorithms, implemented in both PyTorch and TensorFlow, to improve the data model for an application that analyzes mutual fund prospectuses to automatically identify trading related compliance rules that must be followed by the fund managers."
+            },
+            {
+                "description" : "I implemented features, wrote stories, and performed code reviews. I also planned and led bi-weekly deployments of these Java with Spring Boot and Python containerized, microservices to AWS EC2 compute environments."
             }
             ],
-            "skills" : "AWS, PyTorch, TensorFlow, Python, Java, Spring Boot, Mockito, Docker, Microservice, MongoDB, Maven, Jenkins, Git, Agile, Scrum"
+            "skills" : "AWS EC2, PyTorch, TensorFlow, Python, Java, Spring Boot, Mockito, Docker, Microservice, MongoDB, Maven, Jenkins, Git, Agile, Scrum"
         },
         {
             "id" : 1,
             "title" : "Principal Software Engineer",
-            "company" : "Raytheon Technologies - Portsmouth, RI",
+            "company" : "Raytheon Technologies",
+            "location" : "Portsmouth, RI",
             "datesWorked" : "January 2020 - July 2023",
             "role" : "Technical Lead - Research and Development",
             "accomplishments" : [
             {
-                "description" : "Worked on research and development projects related to solving complex planning and resource management problems."
+                "description" : "I led the design and build of a entirely new, scalable, cloud native, battle management command and control system employing a micro-service based, publish-subscribe architecture. This system of systems is capable of automatically planning and executing theatre level military operations in real time. Helped to successfully demonstrate and sell the system as part of a competitive bidding process to an important customer thereby securing funds to continue this critical research."
             },
             {
-                "description" : "Design and implement cloud native, containerized micro-service based systems deployed to Kubernetes implementations using modern CI/CD pipelines and agile development methodologies."
+                "description" : "I implemented several microservices from scratch in Java and Go establishing patterns for other engineers to follow, designed and led the implementation of new feature sets, led daily scrums (for a couple of years), wrote stories in Jira as well as extensive documentation in Confluence, created a release paradigm using Helm, laid out regression testing procedures and spent considerable time mentoring fellow engineers and pushing for change across our software development community."
             }
             ],
             "skills" : "Java, Go, Python, Spring Boot, Mockito, Docker, Podman, Microservice, RabbitMQ, MongoDB, Redis, Maven, npm, Jenkins, Coverity, Helm, ArgoCD, OpenShift, Rancher, Kubernetes, Domain Driven Design, Trunk-Based Development, Git, Agile, Scrum"
@@ -57,12 +62,16 @@
         {
             "id" : 2,
             "title" : "Sr. Software Engineer",
-            "company" : "Apple - Austin, TX",
+            "company" : "Apple",
+            "location" : "Austin, TX",
             "datesWorked" : "November 2018 - October 2019",
             "role" : "Java/Scala Software Engineer",
             "accomplishments" : [
             {
-                "description" : "Helped to build and lead a new engineering team responsible for the Apple online store bag and checkout experience for Apple customers across Asia. Built new and maintained existing site features in an agile environment."
+                "description" : "I helped to stand-up and lead a new engineering team for Apple in Austin, TX. We were responsible for apple.com's bag and checkout experience primarily for Asian customers."
+            },
+            {
+                "description" : "I designed and implemented new features, wrote technical stories, performed system analysis for new features, performed code reviews and often led daily scrum, all in a fast-paced, deadline driven environment. Contributed to 24/7 production support."
             }
             ],
             "skills" : "Scala, Java, Spring MVC, Jenkins, Git, Agile, Scrum"
@@ -70,21 +79,22 @@
         {
             "id" : 3,
             "title" : "Full-Stack Software Engineer",
-            "company" : "Blizzard Entertainment - Austin, TX",
+            "company" : "Blizzard Entertainment",
+            "location" : "Austin, TX",
             "datesWorked" : "August 2015 - November 2018",
             "role" : "Full Stack Developer",
             "accomplishments" : [
             {
-                "description" : "Worked on a complete re-write of Blizzard's game support portal, support.blizzard.com, using the latest front and back-end technologies, a testing framework and the Scrum agile development methodology.  Developed various front and back-end features including integration into the World of Warcraft game client, a faceted search UI implementation and the site's back-end integration with our search engine.  This site is used worldwide, localized in over a dozen languages, and supported on many different browsers and form factors all supported by the small team on which I work."
+                "description" : "I worked on a complete re-write of Blizzard's game support portal, support.blizzard.com, ranging across the full stack.  I developed various front and back-end features including integration into the World of Warcraft game client, a faceted search UI implementation and the site's back-end integration with our search engine.  This site is used worldwide, localized in over a dozen languages, and supported on many different browsers and form factors."
             },
             {
-                "description" : "Helped build a highly customized Knowledge Centered Support (KCS) system for storing and curating Blizzard support articles.  Integrated the new KCS system with the Support Portal and all Blizzard game sites by constructing a system, using message queuing and various REST calls, to publish curated articles to our search engine."
+                "description" : "I helped to build a highly customized Knowledge Centered Support (KCS) system for storing and curating Blizzard support articles.  I helped to integrate the new KCS system with the Support Portal and all Blizzard game sites by constructing a system, using message queuing and various REST APIs, to publish curated articles to our search engine."
             },
             {
-                "description" : "Working on several new self-service options that will automate solutions to common problems that customers must now contact a customer support representative to resolve.  This work entails both front and back-end work as well as colloboration with other Blizzard system teams to develop new APIs."
+                "description" : "I worked on several new self-service options that allow gamers to solve common problems on their own that they used to have to contact a customer support representative to resolve.  This effort entailed both front and back-end work as well as collaboration with other Blizzard system teams to develop new APIs."
             },
             {
-                "description" : "Participate in a 24/7 production support rotation.  Perform code reviews, system analysis for upcoming initiatives as well as write system documentation."
+                "description" : "I participated in a 24/7 production support rotation, performed code reviews, system analysis for upcoming initiatives, and I generated system metrics and documentation."
             }
             ],
             "skills" : "Java, Gradle, Spring MVC, Spock, Mockito, Javascript, jQuery, Bootstrap, HTML(5), CSS(3), Freemarker, Sass, Unsemantic, Font Awesome, Solr, Oracle, Couchbase, RabbitMQ, Jenkins, Trunk-Based Development, Git, Agile, Scrum"
@@ -92,7 +102,8 @@
         {
             "id" : 4,
             "title" : "Full-time Graduate Student",
-            "company" : "Northeastern University - Boston, MA",
+            "company" : "Northeastern University",
+            "location" : "Boston, MA",
             "datesWorked" : "Sep 2014 - May 2015",
             "role" : "MS Candidate, Computer Science",
             "accomplishments" : [
@@ -105,7 +116,8 @@
         {
             "id" : 5,
             "title" : "Principal Software Engineer",
-            "company" : "Fidelity Investments, FFAS - Smithfield, RI",
+            "company" : "Fidelity Investments, FFAS",
+            "location" : "Smithfield, RI",
             "datesWorked" : "Oct 2006 - Sep 2014",
             "role" : "Development Lead, Extended Architect",
             "accomplishments" : [
@@ -133,7 +145,8 @@
         {
             "id" : 6,
             "title" : "Sr. Software Engineer",
-            "company" : "Fidelity Investments, FBCT - Boston, MA",
+            "company" : "Fidelity Investments, FBCT",
+            "location" : "Boston, MA",
             "datesWorked" : "Oct 2005 - Oct 2006",
             "role" : "Mainframe Developer",
             "accomplishments" : [
@@ -149,7 +162,8 @@
         {
             "id" : 7,
             "title" : "Sr. Software Engineer",
-            "company" : "Fidelity Investments, FPCMS - Boston, MA",
+            "company" : "Fidelity Investments, FPCMS",
+            "location" : "Boston, MA",
             "datesWorked" : "July 2001 - Oct 2005",
             "role" : "Mainframe Developer",
             "accomplishments" : [

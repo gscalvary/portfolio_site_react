@@ -32,6 +32,18 @@ body {
   }
 }
 
+.banner {
+  display: inline-flex;
+  align-items: center;
+}
+
+.banner::after {
+  content: "\003e";
+  padding: 0 2em;
+  flex: none;
+  color: skyblue;
+}
+
 .bgWrap {
   position: fixed;
   height: 100vh;
@@ -89,6 +101,19 @@ body {
   padding-bottom: 20px;
 }
 
-.title {
-  padding-bottom: 200px;
+.scroll-right-to-left {
+  animation: 25s scroller 0s infinite linear;
+  display: flex;
+  will-change: transform;
+  transition: transform .01s;
+}
+
+@keyframes scroller {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-100%, 0);
+  }
 }

@@ -6,7 +6,7 @@ interface Props {
 
 export default function Navbar( props : Props ) {
     return (
-        <div className="groovy-chocolate h-20 sticky top-0 w-full">
+        <div className="groovy-chocolate h-20 sticky top-0 w-full z-1">
             <div className="container h-full mx-auto px-4">
                 <div className="flex h-full items-center justify-between">
                     <ul className="hidden md:flex gap-x-6">
