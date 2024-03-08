@@ -27,5 +27,6 @@ This is a static, single page application (SPA) therefore we can use NEXT.js to 
 1. Uncomment the output: 'export' line in next.config.mjs
 2. Generate the site's artifacts using the following command:
 ```bash
-next build
+npm run build
 ```
+3. Move the /out directory's content to your hosting solution.
