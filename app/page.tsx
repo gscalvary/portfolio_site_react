@@ -2,7 +2,7 @@
 
 import EducationTable from '@/app/ui/education/table';
 import ExperienceTable from '@/app/ui/experience/table';
-import headShot from '@/public/Headshot.jpeg'
+import headShot from '@/public/HeadShot.png'
 import heroHeaderPic from '@/public/HeroHeader.png';
 import Image from "next/image";
 import me from '@/app/data/me.json'
@@ -53,7 +53,8 @@ export default function Home() {
               src={headShot}
               alt="My smiling face, well kind of"
               placeholder='blur'
-              sizes='30vw'
+              width={200}
+              height={200}
               className="headshot md:block mx-auto"
             />
           </div>

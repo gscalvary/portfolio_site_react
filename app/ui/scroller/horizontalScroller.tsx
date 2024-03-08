@@ -1,13 +1,21 @@
-import { title } from "process";
+export class ScrollEntry {
+    id : number;
+    text : string;
+
+    constructor (id : number, text : string) {
+        this.id = id;
+        this.text = text;
+    }
+}
 
 interface Props {
-    titles: Array<string>
+    scrollEntries: Array<ScrollEntry>
 }
 
 export default function HorizontalScroller ( props : Props ) {
 
-    const titleHtml = props.titles?.map(title =>
-        <span className="banner">{ title }</span>
+    const titleHtml = props.scrollEntries?.map(scrollEntry =>
+        <span key={ scrollEntry.id } className="banner">{ scrollEntry.text }</span>
     );
 
     return (

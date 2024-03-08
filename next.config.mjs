@@ -1,15 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        remotePatterns: [
-          {
-            protocol: 'https',
-            hostname: 'static.licdn.com',
-            port: '',
-            pathname: '/scds/common/u/img/webpromo/**',
-          },
-        ],
-      }
+    // Uncomment to output: 'export' line when building for deployment as an SPA.
+    // output: 'export'
 };
 
 export default nextConfig;

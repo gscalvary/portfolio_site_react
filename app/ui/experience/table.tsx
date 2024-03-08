@@ -1,13 +1,16 @@
 import me from '@/app/data/me.json'
-import HorizontalScroller from '../scroller/horizontalScroller';
+import HorizontalScroller, { ScrollEntry } from '@/app/ui/scroller/horizontalScroller';
 
 export default function ExperienceTable() {
 
+    var id = 0;
 
-    const titles: Array<string> = me.experience?.filter(function (experience) {
+    const scrollEntries: Array<ScrollEntry> = me.experience?.filter(function (experience) {
         return experience.id < 4;
     }).map(function (experience) {
-        return experience.company;
+        const scrollEntry = new ScrollEntry(id, experience.company);
+        id = id + 1;
+        return scrollEntry;
     });
     
     const experiences = me.experience?.map(experience =>
@@ -24,7 +27,7 @@ export default function ExperienceTable() {
                 </div>
                 <div>
                     {experience.accomplishments?.map((accomplishment) => (
-                        <div className='mb-2'>{ accomplishment.description }</div>
+                        <div key={ accomplishment.id } className='mb-2'>{ accomplishment.description }</div>
                     ))}
                     <div className='mt-4'>{ experience.skills }</div>
                 </div>
@@ -34,7 +37,7 @@ export default function ExperienceTable() {
 
     return (
         <>
-            <HorizontalScroller titles={ titles }/>
+            <HorizontalScroller scrollEntries={ scrollEntries }/>
             <ul className='container mx-auto px-4'>{ experiences }</ul>
         </>
     );

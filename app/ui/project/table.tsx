@@ -1,12 +1,9 @@
 import { Button } from '@/app/ui/project/button';
-import Image from 'next/image';
 import me from '@/app/data/me.json'
-import { useState } from 'react';
 
 export default function ProjectTable() {
 
     const projects = me.projects;
-    const [showModal, setShowModal] = useState(false);
 
     return (
         <>
