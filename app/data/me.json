@@ -31,12 +31,15 @@
             "role" : "Technical Lead - Innovation Squad",
             "accomplishments" : [
             {
+                "id" : 0,
                 "description" : "I was the technical lead for a small, distributed innovation team tasked with quickly prototyping new systems using emerging technologies to help our fund managers realize efficiencies related to compliance."
             },
             {
+                "id" : 1,
                 "description" : "We used machine learning algorithms, implemented in both PyTorch and TensorFlow, to improve the data model for an application that analyzes mutual fund prospectuses to automatically identify trading related compliance rules that must be followed by the fund managers."
             },
             {
+                "id" : 2,
                 "description" : "I implemented features, wrote stories, and performed code reviews. I also planned and led bi-weekly deployments of these Java with Spring Boot and Python containerized, microservices to AWS EC2 compute environments."
             }
             ],
@@ -51,9 +54,11 @@
             "role" : "Technical Lead - Research and Development",
             "accomplishments" : [
             {
+                "id" : 0,
                 "description" : "I led the design and build of a entirely new, scalable, cloud native, battle management command and control system employing a micro-service based, publish-subscribe architecture. This system of systems is capable of automatically planning and executing theatre level military operations in real time. Helped to successfully demonstrate and sell the system as part of a competitive bidding process to an important customer thereby securing funds to continue this critical research."
             },
             {
+                "id" : 1,
                 "description" : "I implemented several microservices from scratch in Java and Go establishing patterns for other engineers to follow, designed and led the implementation of new feature sets, led daily scrums (for a couple of years), wrote stories in Jira as well as extensive documentation in Confluence, created a release paradigm using Helm, laid out regression testing procedures and spent considerable time mentoring fellow engineers and pushing for change across our software development community."
             }
             ],
@@ -68,9 +73,11 @@
             "role" : "Java/Scala Software Engineer",
             "accomplishments" : [
             {
+                "id" : 0,
                 "description" : "I helped to stand-up and lead a new engineering team for Apple in Austin, TX. We were responsible for apple.com's bag and checkout experience primarily for Asian customers."
             },
             {
+                "id" : 1,
                 "description" : "I designed and implemented new features, wrote technical stories, performed system analysis for new features, performed code reviews and often led daily scrum, all in a fast-paced, deadline driven environment. Contributed to 24/7 production support."
             }
             ],
@@ -85,15 +92,19 @@
             "role" : "Full Stack Developer",
             "accomplishments" : [
             {
+                "id" : 0,
                 "description" : "I worked on a complete re-write of Blizzard's game support portal, support.blizzard.com, ranging across the full stack.  I developed various front and back-end features including integration into the World of Warcraft game client, a faceted search UI implementation and the site's back-end integration with our search engine.  This site is used worldwide, localized in over a dozen languages, and supported on many different browsers and form factors."
             },
             {
+                "id" : 1,
                 "description" : "I helped to build a highly customized Knowledge Centered Support (KCS) system for storing and curating Blizzard support articles.  I helped to integrate the new KCS system with the Support Portal and all Blizzard game sites by constructing a system, using message queuing and various REST APIs, to publish curated articles to our search engine."
             },
             {
+                "id" : 2,
                 "description" : "I worked on several new self-service options that allow gamers to solve common problems on their own that they used to have to contact a customer support representative to resolve.  This effort entailed both front and back-end work as well as collaboration with other Blizzard system teams to develop new APIs."
             },
             {
+                "id" : 3,
                 "description" : "I participated in a 24/7 production support rotation, performed code reviews, system analysis for upcoming initiatives, and I generated system metrics and documentation."
             }
             ],
@@ -108,6 +119,7 @@
             "role" : "MS Candidate, Computer Science",
             "accomplishments" : [
             {
+                "id" : 0,
                 "description" : "After having spent the prior two years working full-time as the development lead on a large software project while going to graduate school part-time I took a year break to finish my Masters full-time.  I first planned for this hiatus in 2011 as a much needed opportunity to update my technical skills and then to secure a development job using those new skills."
             }
             ],
@@ -122,21 +134,27 @@
             "role" : "Development Lead, Extended Architect",
             "accomplishments" : [
             {
+                "id" : 0,
                 "description" : "Modernized a large, mission critical transfer agent system by porting it’s back-end web services to process against a relational database.  These services support all customer data view and update operations for institutional.fidelity.com and run concurrently with long-running batch processes that also update the database.  Lead developer for both on-shore and off-shore development teams."
             },
             {
+                "id" : 1,
                 "description" : "Rewrote the core batch and on-line software responsible for the systematic buying and selling of Fidelity mutual funds, including minimum retirement distributions from 401k accounts, directly from customer bank accounts.  Delivered several user interface tweaks and a complete batch redesign for performance improvements.  Led design, development, testing and implementation phases."
             },
             {
+                "id" : 2,
                 "description" : "Built a multi-threaded COBOL application for periodic dividend processing that reads and updates a multi-million row DB2 database using large, but performant, SQL cursors of my design.  Worked with DBAs to optimize DB table clustering and indexing to support performance, eliminate deadlocks and handle restarts in the event of mid-process failure."
             },
             {
+                "id" : 3,
                 "description" : "Redesigned a single-threaded COBOL process responsible for processing very large data files from brokerage firms.  Delivered a multi-threaded COBOL process yielding a 700% performance increase over the former system.  The technology allowed Fidelity to process industry record-breaking data volume over a single weekend; whereas other mutual fund companies required several weekends to process similar volume.  Led design, development, testing and implementation phases."
             },
             {
+                "id" : 4,
                 "description" : "Responsible for new technology evaluation and prototyping.  Installed, configured and evaluated an IBM zOS virtual machine (container) running on a RedHat Linux host.  Evaluated IBM Eclipse RDz IDE for zOS, as an early user worked directly with IBM development teams, under a non-disclosure agreement, to enhance and stabilize their product."
             },
             {
+                "id" : 5,
                 "description" : "Participated in several 24/7 on-call rotations.  Performed code and system design reviews.  Mentored new programmers.  Traveled to India in 2012 and 2014 to train and mentor our off-shore software engineering teams."
             }
             ],
@@ -151,9 +169,11 @@
             "role" : "Mainframe Developer",
             "accomplishments" : [
             {
+                "id" : 0,
                 "description" : "Worked on the back-end of Fidelity's brokerage system primarily triaging, analyzing and fixing issues caused by software problems.  Responsible for monthly software releases as well as the creation and reporting of our team's monthly metrics."
             },
             {
+                "id" : 1,
                 "description" : "Provided 24/7 support."
             }
             ],
@@ -168,15 +188,19 @@
             "role" : "Mainframe Developer",
             "accomplishments" : [
             {
+                "id" : 0,
                 "description" : "This was my first development job.  I started in 2001 as an associate software engineer and earned two promotions in the first three years leaving as a senior software engineer."
             },
             {
+                "id" : 1,
                 "description" : "Primarily worked on the back-end of the mission critical trade delivery system that supported Fidelity's trading of the securities underlying their mutual funds.  Also worked on the back-end of the securities lending system that allowed Fidelity to lend the securities underlying their mutual funds to other institutions for profit.  By the time I left this role I was the technical subject matter expert of the trade delivery system and was training new engineers on its function and implementation."
             },
             {
+                "id" : 2,
                 "description" : "Enhanced all of the custody systems supported by my team to interface with a new custody bank, Northern Trust.  Delivered technical documentation, new VPNs (NDM line), new transmissions and 500+ program, scheduling and JCL changes.  Led analysis, development, testing and implementation phases; primary technical liason for Northern Trust counterparts."
             },
             {
+                "id" : 3,
                 "description" : "Participated in a 24/7 on-call rotation."
             }
             ],

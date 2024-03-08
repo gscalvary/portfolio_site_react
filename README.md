@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Developing
 
 First, run the development server:
 
@@ -20,11 +20,12 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load a Google Font.
 
-## Learn More
+## Deploying
 
-To learn more about Next.js, take a look at the following resources:
+This is a static, single page application (SPA) therefore we can use NEXT.js to simply output html, javascript, css and images which can then be hosted using a web service of our choice. In the case of this application I'm using AWS S3 to host and serve the site's artifacts.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Uncomment the output: 'export' line in next.config.mjs
+2. Generate the site's artifacts using the following command:
+```bash
+next build
+```
