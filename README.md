@@ -24,7 +24,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 This is a static, single page application (SPA) therefore we can use NEXT.js to simply output html, javascript, css and images which can then be hosted using a web service of our choice. In the case of this application I'm using AWS S3 to host and serve the site's artifacts.
 
-1. Uncomment the output: 'export' line in next.config.mjs
+1. Uncomment the output: 'export' and image configuration lines in next.config.mjs
 2. Generate the site's artifacts using the following command:
 ```bash
 npm run build
